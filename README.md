@@ -1,8 +1,21 @@
 # LEARN REDUX
 
+> This was heavily influenced by Dan Ambramov's video course which can be found on [egghead.io](https://egghead.io/courses/getting-started-with-redux)
+
 > Learn Redux by adventuring around in the terminal.  
 
 > _Looking for more interactive tutorials like this? Go to [nodeschool.io](http://nodeschool.io)._
+
+# THINGS TO DO!!!!
+
+* Installation an getting started
+* Single Imutable state tree
+* Describe state changes with actions
+* Reducer function
+* Store methods  (getState(), dispatch(), subscribe())
+* Combine reducer
+* Write a todo example
+
 
 ## Get help
 Having issues with learn-redux? Get help troubleshooting in the [nodeschool discussions repo](http://github.com/nodeschool/discussions), or on gitter:
