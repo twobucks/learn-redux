@@ -1,0 +1,29 @@
+{
+  "name": "learn-redux",
+  "version": "0.0.1",
+  "description": "Learn You The Node.js For Much Win! An intro to Node.js via a set of self-guided workshops.",
+  "author": "Dino Trojak <dinotrojak@gmail.com> (https://github.com/dinodsurus)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/twobucks/learn-redux"
+  },
+  "license": "MIT",
+  "bin": {
+    "learn-redux": "./bin/learn-redux.js"
+  },
+  "dependencies": {
+    "workshopper-adventure": "^6.0.0",
+    "workshopper-exercise": "^3.0.1",
+    "workshopper-wrappedexec": "~0.1.1"
+  },
+  "devDependencies": {
+    "standard": "^8.1.0",
+    "standard-version": "^4.0.0",
+    "workshopper-adventure-test": "^1.0.4"
+  },
+  "scripts": {
+    "lint": "./node_modules/.bin/standard",
+    "test": "npm run lint && ./node_modules/.bin/workshopper-adventure-test",
+    "release": "./node_modules/.bin/standard-version"
+  }
+}
