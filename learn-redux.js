@@ -8,7 +8,7 @@ const learnyounode = require('workshopper-adventure')({
 })
 
 learnyounode.addAll([
-  'HELLO WORLD'
+  'INTRODUCTION'
 ])
 
 module.exports = learnyounode
